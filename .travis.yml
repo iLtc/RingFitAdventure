@@ -6,5 +6,6 @@ deploy:
   provider: lambda
   function_name: "RingFitAdventure"
   region: "us-east-2"
+  role: "arn:aws:iam::698425550551:role/service-role/RingFitAdventure-role-f5zojvgy"
   runtime: "python3.8"
   handler_name: "lambda_function.lambda_handler"
