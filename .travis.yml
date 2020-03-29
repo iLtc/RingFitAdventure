@@ -1,3 +1,6 @@
+language: python
+python:
+  - "3.8"
 deploy:
   provider: lambda
   function_name: "RingFitAdventure"
