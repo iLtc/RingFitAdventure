@@ -1,6 +1,7 @@
 language: python
 python:
   - "3.8"
+script: python lambda_function.py
 deploy:
   provider: lambda
   function_name: "RingFitAdventure"
